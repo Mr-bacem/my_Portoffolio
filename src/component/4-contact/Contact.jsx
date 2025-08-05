@@ -1,11 +1,12 @@
 import "./contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 import Lottie from "lottie-react";
-import doneAnimation from "../../../public/animation/done.json";
-import contactAnimation from "../../../public/animation/contact.json"
+import doneAnimation from "../../animation/done.json";
+import contactAnimation from "../../animation/contact.json"
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("xrgvvdlo");
+  
+   const [state, handleSubmit] = useForm("mzblqozg");
 
   return (
     <section className="contact-us">

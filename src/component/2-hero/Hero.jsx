@@ -1,6 +1,6 @@
 import "./hero.css";
 import Lottie from "lottie-react";
-import devAnimation from "../../../public/animation/dev.json"
+import devAnimation from "../../animation/dev.json"
 import { useRef } from "react";
 const Hero = () => {
 
@@ -24,27 +24,27 @@ const Hero = () => {
         </p>
 
         <div className="all-icons flex">
-          <div className="icon icon-twitter"></div>
-          <div className="icon icon-instagram"></div>
-          <div className="icon icon-github"></div>
-          <div className="icon icon-linkedin"></div>
+        <a href="https://x.com/GhBacem1?s=09" target="_blank" rel="noopener noreferrer" className="icon icon-twitter"></a>
+        <a href="https://www.instagram.com/bacem_gdr?igsh=MTZ2bDQ4cWlkeG1yag==" target="_blank" rel="noopener noreferrer" className="icon icon-instagram"></a>
+          <a href="https://github.com/Mr-bacem" target="_blank" rel="noopener noreferrer" className="icon icon-github"></a>
+          <a href="https://www.linkedin.com/in/bacem-ghdiri/" target="_blank" rel="noopener noreferrer" className="icon icon-linkedin"></a>
+        
         </div>
       </div>
       
 
 
-      <div className="right-section animation ">
-        <Lottie
-          lottieRef={lottieRef}
-          className=""
-          onLoadedImages={() => {
-            // @ts-ignore
-            // https://lottiereact.com/
-            lottieRef.current.setSpeed(0.5);
-          }}
-          animationData={devAnimation}
-        />
-      </div>
+      <div className="right-section animation">
+      <Lottie
+        lottieRef={lottieRef}
+        className=""
+        onLoadedImages={() => {
+          // @ts-ignore
+          lottieRef.current.setSpeed(0.5);
+        }}
+        animationData={devAnimation}
+      />
+    </div>
     </section>
   );
 };
