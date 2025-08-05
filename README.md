@@ -1,8 +1,49 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Voir sur GitHub](https://img.shields.io/badge/Code%20source-GitHub-181717?logo=github&style=for-the-badge&logoColor=white)](https://github.com/bacem-ghdiri/my_portofolio)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+# 💼 Mon Portfolio – Bacem Ghdiri
+
+Bienvenue sur mon portfolio personnel ! Ce projet présente mes compétences, projets et expériences en tant que développeur web.
+
+🚀 Déployé sur [bacem-ghdiri.web.app](https://bacem-ghdiri.web.app/)
+
+---
+
+## ✨ Fonctionnalités
+
+- Interface responsive et moderne (React + Vite)
+- Animations avec Framer Motion
+- Formulaire de contact via Formspree
+- Intégration de Lottie animations
+- Déploiement sur Firebase Hosting
+
+---
+
+## 🛠️ Stack technique
+
+- **Framework** : [React](https://reactjs.org/)
+- **Build Tool** : [Vite](https://vitejs.dev/)
+- **Animations** : [Framer Motion](https://www.framer.com/motion/)
+- **Formulaire** : [Formspree](https://formspree.io/)
+- **Déploiement** : [Firebase Hosting](https://firebase.google.com/products/hosting)
+
+---
+
+## 🚀 Lancer en local
+
+```bash
+# Cloner le repo
+git clone https://github.com/ton-utilisateur/mon-portfolio.git
+
+# Aller dans le dossier
+cd mon-portfolio
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de dev
+npm run dev
+
